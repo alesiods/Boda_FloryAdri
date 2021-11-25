@@ -3,6 +3,57 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: "fuenteTitulos";
+    src: url(../fuentes/212\ Warmheart\ Sans\ PERSONAL\ USE.ttf);
+}
+
+
+/* Generales */
+
+body {
+    color: #424d69;
+}
+
+h2 {
+    font-family: "fuenteTitulos";
+    color: #7C92A0;
+    margin-bottom: 15px;
+    font-size: 105px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+footer {
+    background-color: #E9DFD5;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.margenArriba {
+    margin-top: 0px;
+}
+
+.btnPropio {
+    background-color: #7C92A0;
+    border-color: #7C92A0;
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 5px;
+    width: 350px;
+    height: 50px;
+    border: 1px solid transparent;
+    font-size: 20px;
+}
+
+.mAbajo {
+    margin-bottom: 40px;
+}
+
 
 /* Nav */
 
@@ -12,6 +63,7 @@
 
 ul li a {
     color: #424d69 !important;
+    font-size: 25px;
 }
 
 .navbar-nav {
@@ -27,23 +79,64 @@ section {
     margin-top: 50px;
 }
 
-h2 {
-    color: #424d69;
-    margin-bottom: 20px;
+
+/* Seccion Imagen Principal */
+
+.imagenPrincipal {
+    background-image: url(../imgs/principal.png);
+    height: 750px;
 }
 
-.btn-dark {
-    background-color: #7C92A0;
-    border-color: #7C92A0;
-    margin-bottom: 20px;
+h1 {
+    font-family: "fuentetitulos";
+    text-align: start;
+    padding-left: 150px;
+    padding-top: 100px;
+    font-size: 110px;
 }
 
-.mAbajo {
-    margin-bottom: 40px;
+.imagenPrincipal p {
+    text-align: start;
+    padding-left: 150px;
+    font-weight: 400;
+    font-size: 35px;
 }
 
-footer {
-    background-color: #E9DFD5;
-    text-align: center;
-    margin-top: 50px;
+.cajaInvitacion {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.cajaInvitacion p {
+    line-height: 40px;
+}
+
+
+/* Seccion Hashtag */
+
+.imagenHashtag {
+    background-image: url(../imgs/fiesta.png);
+    height: 750px;
+}
+
+.imagenHashtag h2 {
+    color: #E9DFD5;
+    padding-top: 475px;
+}
+
+.imagenHashtag p {
+    color: #E9DFD5;
+    width: 60%;
+    margin: auto;
+}
+
+
+/* Seccion Regalo */
+
+.cajaParrafoRegalo {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    line-height: 40px;
 }

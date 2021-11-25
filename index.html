@@ -23,16 +23,16 @@
                             <a class="nav-link active" aria-current="page" href="#">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">CEREMONIA</a>
+                            <a class="nav-link active" aria-current="page" href="#ceremonia">CEREMONIA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">FIESTA</a>
+                            <a class="nav-link active" aria-current="page" href="#fiesta">FIESTA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">REGALO</a>
+                            <a class="nav-link active" aria-current="page" href="#regalo">REGALO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">ASISTENCIA</a>
+                            <a class="nav-link active" aria-current="page" href="#asistencia">ASISTENCIA</a>
                         </li>
                     </ul>
                 </div>
@@ -41,8 +41,19 @@
 
     </header>
     <main>
-        <section>
-            <p>TE INVITAMOS A QUE NOS ACOMPAÑES EN ESTE GRAN DIA</p>
+        <!-- Principal -->
+        <section class="margenArriba">
+            <div class="imagenPrincipal">
+                <h1>Flor y Adri</h1>
+                <p>¡NOS CASAMOS!</p>
+            </div>
+            <div class="cajaInvitacion">
+                <p>TE INVITAMOS A QUE NOS ACOMPAÑES EN ESTE GRAN DIA</p>
+            </div>
+        </section>
+        <!-- Ceremonia -->
+        <section class="container-fluid" id="ceremonia">
+            <img src="imgs/iglesia.png" alt="">
             <h2>Ceremonia</h2>
             <div class="mAbajo">
                 <p>Domingo 27 de Febrero | 19:00Hs.</p>
@@ -50,14 +61,15 @@
                 <p>Córdoba 2870, Santa Fe</p>
             </div>
             <div>
-                <button class="btn btn-dark">COMO LLEGAR</button>
+                <button class="btnPropio">COMO LLEGAR</button>
             </div>
             <div>
-                <button class="btn btn-dark">AGENDAR</button>
+                <button class="btnPropio">AGENDAR</button>
             </div>
         </section>
-
-        <section>
+        <!-- Fiesta -->
+        <section class="container-fluid" id="fiesta">
+            <img src="imgs/salon.png" alt="salon">
             <h2>Fiesta</h2>
             <div class="mAbajo">
                 <p>Domingo 27 de Febrero | 21:00Hs.</p>
@@ -65,28 +77,37 @@
                 <p>Unnamed Rd, Santa Fe</p>
             </div>
             <div>
-                <button class="btn btn-dark">COMO LLEGAR</button>
+                <button class="btnPropio">COMO LLEGAR</button>
             </div>
             <div>
-                <button class="btn btn-dark">AGENDAR</button>
+                <button class="btnPropio">AGENDAR</button>
             </div>
         </section>
-
-        <section>
+        <!-- Ropa -->
+        <section class="container-fluid">
+            <img src="imgs/ropa.png" alt="ropa">
             <h2>Dress Code</h2>
             <p>Elegante</p>
         </section>
-
+        <!-- Imagen Hashtag -->
         <section>
-            <h2>¿Querés hacernos un regalo?</h2>
-            <p>Lo importante es que nos acompañes ese día pero si querés hacernos un regalo podes ayudarnos con la Luna de Miel.</p>
-            <button class="btn btn-dark">DATOS DE LA CUENTA BANCARIA</button>
+            <div class="imagenHashtag">
+                <h2>#FloryAdri</h2>
+                <p>¡Compartamos juntos este momento! Usá nuestro hashtag en Intagram para subir tus fotos y videos</p>
+            </div>
         </section>
-
-        <section>
+        <!-- Regalo -->
+        <section class="container-fluid" id="regalo">
+            <img src="imgs/regalo.png" alt="regalo">
+            <h2>¿Querés hacernos un regalo?</h2>
+            <p class="cajaParrafoRegalo">Lo importante es que nos acompañes ese día pero si querés hacernos un regalo podes ayudarnos con la Luna de Miel.</p>
+            <button class="btnPropio">DATOS DE LA CUENTA BANCARIA</button>
+        </section>
+        <!-- Asistencia -->
+        <section class="container-fluid" id="asistencia">
             <h2>Asistencia</h2>
-            <p>Se ruega confirmar antes del</p>
-            <button class="btn btn-dark">QUIERO CONFIRMAR</button>
+            <p>Se ruega confirmar antes del Viernes 31 de Diciembre</p>
+            <button class="btnPropio">QUIERO CONFIRMAR</button>
         </section>
 
     </main>
