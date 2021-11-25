@@ -112,6 +112,8 @@
     .imagenHashtag {
         background-image: url(../imgs/fiesta.png);
         height: 110vh;
+        background-position: unset;
+        background-size: cover;
     }
     
     .imagenHashtag h2 {
