@@ -1,142 +1,195 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-@font-face {
-    font-family: "fuenteTitulos";
-    src: url(../fuentes/212\ Warmheart\ Sans\ PERSONAL\ USE.ttf);
-}
-
-
-/* Generales */
-
-body {
-    color: #424d69;
-}
-
-h2 {
-    font-family: "fuenteTitulos";
-    color: #7C92A0;
-    margin-bottom: 15px;
-    font-size: 105px;
-}
-
-p {
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 27px;
-}
-
-footer {
-    background-color: #E9DFD5;
-    text-align: center;
-    margin-top: 50px;
-}
-
-.margenArriba {
-    margin-top: 0px;
-}
-
-.btnPropio {
-    background-color: #7C92A0;
-    border-color: #7C92A0;
-    margin-bottom: 20px;
-    color: white;
-    border-radius: 5px;
-    width: 350px;
-    height: 50px;
-    border: 1px solid transparent;
-    font-size: 20px;
-}
-
-.mAbajo {
-    margin-bottom: 40px;
-}
-
-
-/* Nav */
-
-.bg-light {
-    background-color: #E9DFD5 !important;
-}
-
-ul li a {
-    color: #424d69 !important;
-    font-size: 25px;
-}
-
-.navbar-nav {
-    justify-content: flex-end;
-    width: 99%;
-}
-
-main {
-    text-align: center;
-}
-
-section {
-    margin-top: 50px;
-}
-
-
-/* Seccion Imagen Principal */
-
-.imagenPrincipal {
-    background-image: url(../imgs/principal.png);
-    height: 750px;
-}
-
-h1 {
-    font-family: "fuentetitulos";
-    text-align: start;
-    padding-left: 150px;
-    padding-top: 100px;
-    font-size: 110px;
-}
-
-.imagenPrincipal p {
-    text-align: start;
-    padding-left: 150px;
-    font-weight: 400;
-    font-size: 35px;
-}
-
-.cajaInvitacion {
-    width: 450px;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-
-.cajaInvitacion p {
-    line-height: 40px;
-}
-
-
-/* Seccion Hashtag */
-
-.imagenHashtag {
-    background-image: url(../imgs/fiesta.png);
-    height: 750px;
-}
-
-.imagenHashtag h2 {
-    color: #E9DFD5;
-    padding-top: 475px;
-}
-
-.imagenHashtag p {
-    color: #E9DFD5;
-    width: 60%;
-    margin: auto;
-}
-
-
-/* Seccion Regalo */
-
-.cajaParrafoRegalo {
-    width: 600px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    line-height: 40px;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    @font-face {
+        font-family: "fuenteTitulos";
+        src: url(../fuentes/212\ Warmheart\ Sans\ PERSONAL\ USE.ttf);
+    }
+    /* Generales */
+    
+    body {
+        color: #424d69;
+    }
+    
+    h2 {
+        font-family: "fuenteTitulos";
+        color: #7C92A0;
+        margin-bottom: 15px;
+        font-size: 105px;
+    }
+    
+    p {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 27px;
+    }
+    
+    footer {
+        background-color: #E9DFD5;
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+    .margenArriba {
+        margin-top: 0px;
+    }
+    
+    .btnPropio {
+        background-color: #7C92A0;
+        border-color: #7C92A0;
+        margin-bottom: 20px;
+        color: white;
+        border-radius: 5px;
+        width: 350px;
+        height: 50px;
+        border: 1px solid transparent;
+        font-size: 20px;
+    }
+    
+    .mAbajo {
+        margin-bottom: 40px;
+    }
+    /* Nav */
+    
+    .bg-light {
+        background-color: #E9DFD5 !important;
+    }
+    
+    ul li a {
+        color: #424d69 !important;
+        font-size: 25px;
+    }
+    
+    .navbar-nav {
+        justify-content: flex-end;
+        width: 99%;
+    }
+    
+    main {
+        text-align: center;
+    }
+    
+    section {
+        margin-top: 50px;
+    }
+    /* Seccion Imagen Principal */
+    
+    .imagenPrincipal {
+        background-image: url(../imgs/principal.png);
+        height: 100vh;
+        background-position: unset;
+        background-size: cover;
+    }
+    
+    h1 {
+        font-family: "fuentetitulos";
+        text-align: start;
+        padding-left: 150px;
+        padding-top: 100px;
+        font-size: 110px;
+    }
+    
+    .imagenPrincipal p {
+        text-align: start;
+        padding-left: 150px;
+        font-weight: 400;
+        font-size: 35px;
+    }
+    
+    .cajaInvitacion {
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    
+    .cajaInvitacion p {
+        line-height: 40px;
+    }
+    /* Seccion Hashtag */
+    
+    .imagenHashtag {
+        background-image: url(../imgs/fiesta.png);
+        height: 110vh;
+    }
+    
+    .imagenHashtag h2 {
+        color: #E9DFD5;
+        padding-top: 475px;
+    }
+    
+    .imagenHashtag p {
+        color: #E9DFD5;
+        width: 60%;
+        margin: auto;
+    }
+    /* Seccion Regalo */
+    
+    .cajaParrafoRegalo {
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        line-height: 40px;
+    }
+    /* Media Querys */
+    
+    @media(max-width: 600px) {
+        /* Generales */
+        p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 15px;
+        }
+        h2 {
+            margin-bottom: 15px;
+            font-size: 53px;
+        }
+        .btnPropio {
+            margin-bottom: 15px;
+            color: white;
+            border-radius: 5px;
+            width: 250px;
+            height: 40px;
+            font-size: 15px;
+        }
+        .tamanioIconoSmart {
+            width: 20%;
+        }
+        /* Seccion Imagen Principal */
+        .imagenPrincipal {
+            height: 50vh;
+        }
+        h1 {
+            padding-left: 50px;
+            padding-top: 10px;
+            font-size: 55px;
+        }
+        .imagenPrincipal p {
+            text-align: start;
+            padding-left: 50px;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        .cajaInvitacion {
+            width: 50%;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+        .cajaInvitacion p {
+            line-height: 25px;
+        }
+        /* Seccion Hashtag */
+        .imagenHashtag {
+            height: 90vh;
+        }
+        .imagenHashtag h2 {
+            color: #E9DFD5;
+            padding-top: 200px;
+        }
+        .imagenHashtag p {
+            color: #E9DFD5;
+            width: 70%;
+            margin: auto;
+        }
+    }
