@@ -26,20 +26,6 @@
         line-height: 27px;
     }
     
-    footer {
-        background-color: #E9DFD5;
-        text-align: center;
-        margin-top: 50px;
-    }
-    
-    .cajaFooter {
-        height: 100px;
-    }
-    
-    footer h2 {
-        font-size: 75px;
-    }
-    
     .margenArriba {
         margin-top: 0px;
     }
@@ -156,6 +142,22 @@
     #asistencia p {
         margin-bottom: 40px;
     }
+    /* Footer */
+    
+    footer {
+        background-color: #E9DFD5;
+        margin-top: 50px;
+    }
+    
+    .cajaFooter {
+        text-align: center;
+        height: 100px;
+    }
+    
+    footer h2 {
+        padding-top: 10px;
+        font-size: 75px;
+    }
     /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
     /* Media Querys */
     
@@ -254,7 +256,7 @@
             height: 80px;
         }
         .cajaFooter h2 {
-            margin-top: 20px;
+            padding-top: 15px;
             font-size: 40px;
         }
     }
