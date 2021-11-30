@@ -63,7 +63,7 @@
     
     ul li a {
         color: #424d69 !important;
-        font-size: 25px;
+        font-size: 20px;
     }
     
     .navbar-nav {
@@ -173,6 +173,11 @@
         .tamanioIconoSmart {
             width: 20%;
         }
+        /* Nav */
+        ul li a {
+            font-weight: 600;
+            font-size: 13px;
+        }
         /* Seccion Imagen Principal */
         .imagenPrincipal {
             height: 50vh;
@@ -207,6 +212,14 @@
         .imagenHashtag p {
             color: #E9DFD5;
             width: 70%;
+            margin: auto;
+        }
+        /* Seccion Hashtag */
+        .imagenHashtag h2 {
+            padding-top: 345px;
+        }
+        .imagenHashtag p {
+            width: 60%;
             margin: auto;
         }
         /* Seccion Regalo */
