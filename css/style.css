@@ -109,15 +109,15 @@
     
     #cuenta {
         display: flex;
-        justify-content: start;
-        padding-left: 137px;
-        padding-top: 12px;
+        justify-content: center;
+        margin-top: 42px;
+        margin-bottom: 40px;
     }
     
     .simply-section {
-        background-color: #7C92A0;
-        width: 95px;
-        height: 55px;
+        background-color: #E9DFD5;
+        width: 115px;
+        height: 75px;
         margin: 0 10px;
         border-radius: 8px;
         display: flex;
@@ -127,14 +127,14 @@
     
     .simply-amount {
         display: block;
-        color: white;
-        font-size: 18px;
+        color: #424d69;
+        font-size: 20px;
         font-weight: 600;
     }
     
     .simply-word {
-        color: white;
-        font-size: 13px;
+        color: #424d69;
+        font-size: 15px;
         font-weight: 600;
     }
     /* Seccion Hashtag */
@@ -142,7 +142,7 @@
     .imagenHashtag {
         background-image: url(../imgs/fiesta.png);
         height: 110vh;
-        background-position: unset;
+        background-position: center;
         background-size: cover;
     }
     
